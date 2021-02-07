@@ -1,7 +1,6 @@
-name: Compile LateX
-uses: vinay0410/tectonic-action@v1.1.2
+name: Compile on Push
 
-on: [push]
+on: push
 
 jobs:
   latex-job:
